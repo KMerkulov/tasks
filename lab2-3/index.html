@@ -1,0 +1,197 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml" > 
+<head> 
+<title>lab 2-3</title> 
+<link rel="Stylesheet" href="style.css" type="text/css" /> 
+</head> 
+<body> 
+Esmased koordinaadid<input type="text" id="start_p" value="100,100"/>
+Lopp koordinaadid<input type="text" id="end_p" value="500,500"/>
+Kiirus millisekundis<input type="text" id="speed" value="1000"/>
+<p><a href="javascript:test()">Alusta</a></p>
+<p><a href="javascript:ddd()">Lopeta</a></p>
+<div id="bg">
+	<div id="boxa1"><p> S </p></div> 
+	<div id="boxa3"><p> F </p></div> 
+	<div id="box"></div> 
+	<div id="noise"></div> 
+</div>
+ 
+ 
+ 
+	    
+<script> 
+function ddd() {
+    stope = true;
+}
+
+function getstyle(elem, prop) {
+    if (document.defaultView) {
+        return document.defaultView.getComputedStyle(elem, null).getPropertyValue(
+            prop);
+    } else if (elem.currentStyle) {
+        var prop = prop.replace(/-(\w)/gi, function($0, $1) {
+            return $1.toUpperCase();
+        });
+        return elem.currentStyle[prop];
+    } else return null;
+}
+
+function $(id) {
+    var $ = (typeof id == "string") ? document.getElementById(id) : id;
+    $.start = {};
+    $.move = function(settings, callbk) {
+        var _this = this;
+        var left = getstyle(_this, "left");
+        var top = getstyle(_this, "top");
+        _this.start.left = (left == "auto") ? 0 : parseInt(left);
+        _this.start.top = (top == "auto") ? 0 : parseInt(top);
+        if (settings.to.top == _this.start.top) { // x 
+            var descend = (settings.to.left > _this.start.left) ? false :
+                true;
+            var s = Math.min(_this.start.left, settings.to.left);
+            var d = Math.max(_this.start.left, settings.to.left);
+            for (i = s; i <= d; i++) {
+                (function(j) {
+                    var delay = (descend == true) ? (d - j) *
+                        settings.delay / (d - s) : (j - s) *
+                        settings.delay / (d - s);
+                    setTimeout(function() {
+                        _this.style.left = j + "px";
+                        if (descend == false && j == d &&
+                            callbk != undefined) {
+                            callbk.call(_this);
+                        } else if (descend == true &&
+                            callbk != undefined && j == s) {
+                            callbk.call(_this);
+                        }
+                    }, delay);
+                })(i);
+            }
+        } else if (settings.to.left == _this.start.left) { // y 
+            var descend = (settings.to.top > _this.start.top) ? false :
+                true;
+            var s = Math.min(_this.start.top, settings.to.top);
+            var d = Math.max(_this.start.top, settings.to.top);
+            for (i = s; i <= d; i++) {
+                (function(j) {
+                    var delay = (descend == true) ? (d - j) *
+                        settings.delay / (d - s) : (j - s) *
+                        settings.delay / (d - s);
+                    setTimeout(function() {
+                        _this.style.top = j + "px";
+                        if (descend == false && j == d &&
+                            callbk != undefined) {
+                            callbk.call(_this);
+                        } else if (descend == true &&
+                            callbk != undefined && j == s) {
+                            callbk.call(_this);
+                        }
+                    }, delay);
+                })(i);
+            }
+        } else {
+            var descend = (settings.to.left > _this.start.left) ? false :
+                true;
+            var s = Math.min(_this.start.left, settings.to.left);
+            var d = Math.max(_this.start.left, settings.to.left);
+            var k = (settings.to.top - _this.start.top) / (settings.to.left -
+                _this.start.left);
+            var b = settings.to.top - k * settings.to.left;
+            for (i = s; i <= d; i++) {
+                (function(j) {
+                    var delay = (descend == true) ? (d - j) *
+                        settings.delay / (d - s) : (j - s) *
+                        settings.delay / (d - s);
+                    setTimeout(function() {
+                        _this.style.left = j + "px";
+                        _this.style.top = k * j + b + "px";
+                        if (descend == false && j == d &&
+                            callbk != undefined) {
+                            callbk.call(_this);
+                        } else if (descend == true &&
+                            callbk != undefined && j == s) {
+                            callbk.call(_this);
+                        }
+                    }, delay);
+                })(i);
+            }
+        }
+    };
+    return $;
+}
+var stope = false;
+
+function test() {
+    var v = document.getElementsByTagName("audio")[0];
+    v.play();
+    stope = false;
+    var s = document.getElementById("start_p").value;
+    var f = document.getElementById("end_p").value;
+    var speed = document.getElementById("speed").value;
+    var sp = {};
+    sp.x = s.split(",")[0];
+    sp.y = s.split(",")[1];
+    var fp = {};
+    fp.x = f.split(",")[0];
+    fp.y = f.split(",")[1];
+    var sb = document.getElementById("boxa1");
+    var eb = document.getElementById("boxa3");
+    var b = document.getElementById("box");
+    var bg = document.getElementById("bg");
+    sb.style.left = b.style.left = bg.style.left = sp.x + "px";
+    sb.style.top = b.style.top = bg.style.top = sp.y + "px";
+    sb.style.display = b.style.display = "block";
+    eb.style.left = fp.x + "px";
+    eb.style.top = fp.y + "px";
+    eb.style.display = "block";
+
+    function moveit() {
+        if (!stope) {
+            $("box").move({
+                delay: speed,
+                to: {
+                    left: sp.x,
+                    top: sp.y
+                }
+            }, function() {
+                $("box").move({
+                    delay: speed,
+                    to: {
+                        left: fp.x,
+                        top: sp.y
+                    }
+                }, function() {
+                    $("box").move({
+                        delay: speed,
+                        to: {
+                            left: fp.x,
+                            top: fp.y
+                        }
+                    }, function() {
+                        $("box").move({
+                            delay: speed,
+                            to: {
+                                left: sp
+                                    .x,
+                                top: fp
+                                    .y
+                            }
+                        }, function() {
+                            moveit();
+                        });
+                    });
+                });
+            });
+        }
+    }
+    moveit();
+}
+ 
+</script> 
+ <audio loop>
+  <source src="music.mp3" type="audio/mpeg">
+</audio>
+
+</body> 
+</html> 

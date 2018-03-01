@@ -1,0 +1,9 @@
+C:\c#\projects\forum\CSVGeneratorTest\CSVGeneratorTest\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\c#\projects\forum\CSVGeneratorTest\CSVGeneratorTest\obj\x86\Debug\CSVGeneratorTest.Properties.Resources.resources
+C:\c#\projects\forum\CSVGeneratorTest\CSVGeneratorTest\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\c#\projects\forum\CSVGeneratorTest\CSVGeneratorTest\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\c#\projects\forum\CSVGeneratorTest\CSVGeneratorTest\bin\Debug\CSVGeneratorTest.exe
+C:\c#\projects\forum\CSVGeneratorTest\CSVGeneratorTest\bin\Debug\CSVGeneratorTest.pdb
+C:\c#\projects\forum\CSVGeneratorTest\CSVGeneratorTest\obj\x86\Debug\CSVGeneratorTest.exe
+C:\c#\projects\forum\CSVGeneratorTest\CSVGeneratorTest\obj\x86\Debug\CSVGeneratorTest.pdb
+C:\c#\projects\forum\CSVGeneratorTest\CSVGeneratorTest\obj\x86\Debug\CSVGeneratorTest.Forms.MainForm.resources

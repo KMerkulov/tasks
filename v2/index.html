@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Галерея</title>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<style>
+  .button input[type="button"] {
+  background-color: #bb2f2a;
+  border: none;
+  color: #fff;
+  border: 1px solid #e0514b;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+.content img{
+display:none;
+}
+</head>
+<body>
+</style>
+<script language="JavaScript" type="text/javascript">
+	var current=1;
+	var kilkist = 6;
+ 
+
+	tumb = new Array();
+	for(var i = 0; i< kilkist; i++){
+	tumb[i]=new Image();
+	tumb[i].src = (i+1)+".jpg";
+	}
+
+
+$(function(){
+
+
+	$("img[name=a]").on("load", function(){
+	$(this).fadeIn("slow");
+	});
+	
+ 
+
+});
+
+
+function vpered(){
+	if (current < kilkist) {
+		current++;
+		document.images['a'].src=tumb[current-1].src;
+		document.images['a'].style.display = "none";
+	}
+}
+function nazad(){
+	if (current > 1) {
+	current--;
+	document.images['a'].src=tumb[current-1].src;
+	document.images['a'].style.display = "none";
+	}
+}
+function first(){
+	document.images['a'].src=tumb[0].src;
+	document.images['a'].style.display = "none";
+	current = 1;
+}
+function end(){
+	document.images['a'].src=tumb[kilkist-1].src;
+	document.images['a'].style.display = "none";
+	current = kilkist-1;
+}
+
+</script>
+
+
+<div class="bg" style="width:100%; height:100%;">
+<div class="content" style="width:500px; height:550px; margin:0 auto;">
+<img src="1.jpg" name="a"/></div>
+<div class="button" style="width:258px; margin:20px auto;">
+<input type="button" value="Tagasi" onClick="nazad()">  
+<input type="button" value="Edasi" onClick="vpered()">
+<input type="button" value="Esimene" onClick="first()">
+<input type="button" value="Viimane" onClick="end()"></div>
+</div>
+</div>
+</body>
+</html>

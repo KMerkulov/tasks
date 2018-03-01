@@ -1,0 +1,14 @@
+e:\users\merqlove\source\repos\TapCodeCharGeneration\TapCodeCharGeneration\bin\Debug\TapCodeCharGeneration.exe.config
+e:\users\merqlove\source\repos\TapCodeCharGeneration\TapCodeCharGeneration\bin\Debug\TapCodeCharGeneration.exe
+e:\users\merqlove\source\repos\TapCodeCharGeneration\TapCodeCharGeneration\bin\Debug\TapCodeCharGeneration.pdb
+e:\users\merqlove\source\repos\TapCodeCharGeneration\TapCodeCharGeneration\obj\Debug\TapCodeCharGeneration.csprojResolveAssemblyReference.cache
+e:\users\merqlove\source\repos\TapCodeCharGeneration\TapCodeCharGeneration\obj\Debug\TapCodeCharGeneration.csproj.CoreCompileInputs.cache
+e:\users\merqlove\source\repos\TapCodeCharGeneration\TapCodeCharGeneration\obj\Debug\TapCodeCharGeneration.exe
+e:\users\merqlove\source\repos\TapCodeCharGeneration\TapCodeCharGeneration\obj\Debug\TapCodeCharGeneration.pdb
+\\leesikas.ut.ee\merkulov\Desktop\KrunkApp\TapCodeCharGeneration\TapCodeCharGeneration\bin\Debug\TapCodeCharGeneration.exe.config
+\\leesikas.ut.ee\merkulov\Desktop\KrunkApp\TapCodeCharGeneration\TapCodeCharGeneration\bin\Debug\TapCodeCharGeneration.exe
+\\leesikas.ut.ee\merkulov\Desktop\KrunkApp\TapCodeCharGeneration\TapCodeCharGeneration\bin\Debug\TapCodeCharGeneration.pdb
+\\leesikas.ut.ee\merkulov\Desktop\KrunkApp\TapCodeCharGeneration\TapCodeCharGeneration\obj\Debug\TapCodeCharGeneration.csprojResolveAssemblyReference.cache
+\\leesikas.ut.ee\merkulov\Desktop\KrunkApp\TapCodeCharGeneration\TapCodeCharGeneration\obj\Debug\TapCodeCharGeneration.csproj.CoreCompileInputs.cache
+\\leesikas.ut.ee\merkulov\Desktop\KrunkApp\TapCodeCharGeneration\TapCodeCharGeneration\obj\Debug\TapCodeCharGeneration.exe
+\\leesikas.ut.ee\merkulov\Desktop\KrunkApp\TapCodeCharGeneration\TapCodeCharGeneration\obj\Debug\TapCodeCharGeneration.pdb

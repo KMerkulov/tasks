@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Imagestock</title>
+	<link rel="stylesheet" href="styles/reset.css">
+	<link rel="stylesheet" href="styles/main.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+</head>
+<body>
+	<div class="gallery flexbox">
+		<div class="wrapp">
+			<h1>Welcome to Viseven <span class="color-text">imagestock</span></h1>
+			<div class="gallery-list scroll">
+				<div class="add-img image flexbox">
+					<input type="file" class="add-img-bnt" placeholder="link">
+					<div class="button-text">Add your Picture</div>
+				</div>
+			</div>
+			<div class="modal flexbox">
+				<div class="container flexbox">
+					<div class="img-container">
+						<div class="img">
+							<footer class="modal-img-footer flexbox">
+								<div class="dislike"><div class="number-dislikes"></div></div>
+								<div class="like"><div class="number-likes"></div></div>
+							</footer>
+						</div>
+					</div>
+					<div class="comments">
+						<button class="close"></button>
+						<div class="comments-box flexbox">
+							<p>Comments: </p>
+							<div class="comments-length"></div>
+						</div>
+						<div class="comments-container scroll">
+						</div>
+						<div class="new-comment">
+							<form>
+								<input type="text" class="nickname" placeholder="Type your nickname here...">
+								<div class = "box">
+									<textarea class="message" placeholder="Write your comment here..."></textarea>
+									<button class="send-comment-button"></button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="dist/bundle.js"></script>
+</body>
+</html>

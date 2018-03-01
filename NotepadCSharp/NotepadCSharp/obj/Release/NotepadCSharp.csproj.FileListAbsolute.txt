@@ -1,0 +1,15 @@
+G:\LMI\Lab1\NotepadCSharp\NotepadCSharp\bin\Release\NotepadCSharp.exe.config
+G:\LMI\Lab1\NotepadCSharp\NotepadCSharp\bin\Release\NotepadCSharp.exe
+G:\LMI\Lab1\NotepadCSharp\NotepadCSharp\bin\Release\NotepadCSharp.pdb
+G:\LMI\Lab1\NotepadCSharp\NotepadCSharp\obj\Release\NotepadCSharp.About.resources
+G:\LMI\Lab1\NotepadCSharp\NotepadCSharp\obj\Release\NotepadCSharp.blank.resources
+G:\LMI\Lab1\NotepadCSharp\NotepadCSharp\obj\Release\NotepadCSharp.Colon.resources
+G:\LMI\Lab1\NotepadCSharp\NotepadCSharp\obj\Release\NotepadCSharp.frmmain.resources
+G:\LMI\Lab1\NotepadCSharp\NotepadCSharp\obj\Release\NotepadCSharp.Properties.Resources.resources
+G:\LMI\Lab1\NotepadCSharp\NotepadCSharp\obj\Release\NotepadCSharp.replacer.resources
+G:\LMI\Lab1\NotepadCSharp\NotepadCSharp\obj\Release\NotepadCSharp.csproj.GenerateResource.Cache
+G:\LMI\Lab1\NotepadCSharp\NotepadCSharp\obj\Release\NotepadCSharp.exe
+G:\LMI\Lab1\NotepadCSharp\NotepadCSharp\obj\Release\NotepadCSharp.pdb
+C:\Users\Bohdan\Desktop\Lab1\NotepadCSharp\NotepadCSharp\bin\Release\NotepadCSharp.exe.config
+C:\Users\Bohdan\Desktop\Lab1\NotepadCSharp\NotepadCSharp\obj\Release\NotepadCSharp.exe
+C:\Users\Bohdan\Desktop\Lab1\NotepadCSharp\NotepadCSharp\obj\Release\NotepadCSharp.pdb

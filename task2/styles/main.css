@@ -1,0 +1,299 @@
+body {
+    font-family: 'Futura Medium C';
+    font-size: 30px;
+}
+.flexbox{
+	display: flex;
+}
+.hidden{
+    opacity: 0;
+}
+.absolute{
+    position: absolute;
+}
+.slide{
+    width: 1024px;
+    height: 768px;
+    background-image: url(../img/bg-slide1.jpg);
+}
+.background-shadow{
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgba( 255, 255, 255, 0.5);
+}
+header img{
+	margin: 25px 45px;
+}
+h1{
+    font-weight: 100;
+	color: #484248;
+	margin-left: 25px;
+    align-items: center;
+}
+h1:before{
+	content: "";  
+	padding-right: 10px;
+	background: url(../img/li-header.png) no-repeat;
+	height: 45px;  
+	width: 10px;  
+}
+.pulse-cell{
+	background: url(../img/anim1.png) no-repeat;
+	width: 128px;
+	height: 140px;
+}
+.first-cell{
+    top: 455px;
+    left: 412px;
+}
+.second-cell{
+    top: 362px;
+    left: 589px;
+}
+.microscope{
+    background: url(../img/bg-slide2.png);
+    width: 735px;
+    height: 480px;
+    top: 165px;
+    left: 130px;
+    border: 7px solid #fff;
+    border-radius: 8px;
+}
+.container{
+    top: 12px;
+}
+h2{
+    font-weight: 100;
+    padding-left: 94px;
+    letter-spacing: 1px;
+    text-shadow: 
+        /* first layer at 1px */
+        -1px -1px 0px #fff,
+         0px -1px 0px #fff,
+         1px -1px 0px #fff,
+        -1px  0px 0px #fff,
+         1px  0px 0px #fff,
+        -1px  1px 0px #fff,
+         0px  1px 0px #fff,
+         1px  1px 0px #fff,
+        /* second layer at 2px */
+        -2px -2px 0px #fff,
+        -1px -2px 0px #fff,
+         0px -2px 0px #fff,
+         1px -2px 0px #fff,
+         2px -2px 0px #fff,
+         2px -1px 0px #fff,
+         2px  0px 0px #fff,
+         2px  1px 0px #fff,
+         2px  2px 0px #fff,
+         1px  2px 0px #fff,
+         0px  2px 0px #fff,
+        -1px  2px 0px #fff,
+        -2px  2px 0px #fff,
+        -2px  1px 0px #fff,
+        -2px  0px 0px #fff,
+        -2px -1px 0px #fff;
+}
+.malat{
+    color: #f14405;
+    padding-right: 122px;
+}
+.citrullin{
+    color: #da333d;
+}
+.radical-container {
+    width: 736px;
+    height: 170px;
+}
+.radical-container div {
+    background: url(../img/radical.png) no-repeat;
+    width: 62px;
+    height: 97px;
+}
+.radical-01 {
+    top: 125px;
+    left: 42px;
+}
+.radical-02 {
+    top: 50px;
+    left: 73px;
+}
+.radical-03 {
+    top: 72px;
+    left: 206px;
+}
+.radical-04 {
+    top: 55px;
+    right: 192px;
+}
+.radical-05 {
+    top: 52px;
+    right: 58px;
+}
+.mask{
+    background: url(../img/slide2-mask.png);
+    width: 736px;
+    height: 283px;
+    top: 113px;
+}
+.first-egg{
+    top: 375px;
+    left: 212px;
+}
+.second-egg{
+    top: 367px;
+    left: 498px;
+}
+.first-egg .static-egg{
+    background: url(../img/left-egg.png);
+    width: 88px;
+    height: 49px;
+    top: 33px;
+    left: 30px;
+}
+.second-egg .static-egg{
+    background: url(../img/right-egg.png);
+    width: 85px;
+    height: 58px;
+    top: 31px;
+    left: 31px;
+}
+.first-egg .anim-egg{
+    background: url(../img/left-egg-active.png);
+    width: 150px;
+    height: 113px;
+}
+.second-egg .anim-egg{
+    background: url(../img/right-egg-active.png);
+    width: 147px;
+    height: 120px;
+}
+.balls-part1 div {
+    position: absolute;
+    background:url(../img/orange-circle.png);
+    width: 14px;
+    height: 14px;
+}
+.balls-part2 div {
+    position: absolute;
+    background:url(../img/red-circle.png);
+    width: 13px;
+    height: 13px;
+}
+.healthy-cell{
+    width: 100%;
+    height: 100%;
+    background: url(../img/bg-slide3.png);
+    top: 0;
+    left: 0;
+}
+.ball-01{
+    top: 20px;
+    left: 294px;
+}
+.ball-02{
+    top: 40px;
+    left: 289px;
+}
+.ball-03{
+    top: 59px;
+    left: 285px;
+}
+.ball-04{
+    top: 80px;
+    left: 289px;
+}
+.ball-05{
+    top: 101px;
+    left: 293px;
+}
+.ball-06{
+    top: 29px;
+    left: 271px;
+}
+.ball-07{
+    top: 49px;
+    left: 271px;
+}
+.ball-08{
+    top: 70px;
+    left: 271px;
+}
+.ball-09{
+    top: 91px;
+    left: 275px;
+}
+.ball-10{
+    top: 114px;
+    left: 268px;
+}
+.ball-11{
+    top: 39px;
+    left: 254px;
+}
+.ball-12{
+    top: 62px;
+    left: 257px;
+}
+.ball-13{
+    top: 96px;
+    left: 251px;
+}
+.ball-14{
+    top: 13px;
+    right: 209px;
+}
+.ball-15{
+    top: 36px;
+    right: 207px;
+}
+.ball-16{
+    top: 57px;
+    right: 209px; 
+}
+.ball-17{
+    top: 82px;
+    right: 207px; 
+}
+.ball-18{
+    top: 97px;
+    right: 205px; 
+}
+.ball-19{
+    top: 16px;
+    right: 195px;
+}
+.ball-20{
+    top: 32px;
+    right: 196px;
+}
+.ball-21{
+    top: 45px;
+    right: 194px;
+}
+.ball-22{
+    top: 60px;
+    right: 197px; 
+}
+.ball-23{
+    top: 87px;
+    right: 197px; 
+}
+.ball-24{
+    top: 111px;
+    right: 194px;
+}
+.ball-25{
+    top: 29px;
+    right: 179px; 
+}
+.ball-26{
+    top: 51px;
+    right: 186px; 
+}
+.ball-27{
+    top: 73px;
+    right: 187px;
+}

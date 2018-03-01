@@ -1,0 +1,12 @@
+C:\Users\alexa\Desktop\Marks\Marks\bin\Debug\Marks.exe.config
+C:\Users\alexa\Desktop\Marks\Marks\bin\Debug\Marks.exe
+C:\Users\alexa\Desktop\Marks\Marks\bin\Debug\Marks.pdb
+C:\Users\alexa\Desktop\Marks\Marks\obj\Debug\Marks.csprojResolveAssemblyReference.cache
+C:\Users\alexa\Desktop\Marks\Marks\obj\Debug\Marks.Forma.resources
+C:\Users\alexa\Desktop\Marks\Marks\obj\Debug\Marks.Properties.Resources.resources
+C:\Users\alexa\Desktop\Marks\Marks\obj\Debug\Marks.csproj.GenerateResource.Cache
+C:\Users\alexa\Desktop\Marks\Marks\obj\Debug\Marks.exe
+C:\Users\alexa\Desktop\Marks\Marks\obj\Debug\Marks.pdb
+C:\Users\Admin\Desktop\Marks\Marks\bin\Debug\Marks.exe.config
+C:\Users\Admin\Desktop\Marks\Marks\obj\Debug\Marks.exe
+C:\Users\Admin\Desktop\Marks\Marks\obj\Debug\Marks.pdb
