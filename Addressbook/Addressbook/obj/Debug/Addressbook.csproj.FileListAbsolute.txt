@@ -1,0 +1,10 @@
+E:\Users\Merqlove\source\repos\Addressbook\Addressbook\bin\Debug\Addressbook.exe.config
+E:\Users\Merqlove\source\repos\Addressbook\Addressbook\bin\Debug\Addressbook.exe
+E:\Users\Merqlove\source\repos\Addressbook\Addressbook\bin\Debug\Addressbook.pdb
+E:\Users\Merqlove\source\repos\Addressbook\Addressbook\obj\Debug\Addressbook.csprojResolveAssemblyReference.cache
+E:\Users\Merqlove\source\repos\Addressbook\Addressbook\obj\Debug\Addressbook.Form1.resources
+E:\Users\Merqlove\source\repos\Addressbook\Addressbook\obj\Debug\Addressbook.Properties.Resources.resources
+E:\Users\Merqlove\source\repos\Addressbook\Addressbook\obj\Debug\Addressbook.csproj.GenerateResource.Cache
+E:\Users\Merqlove\source\repos\Addressbook\Addressbook\obj\Debug\Addressbook.csproj.CoreCompileInputs.cache
+E:\Users\Merqlove\source\repos\Addressbook\Addressbook\obj\Debug\Addressbook.exe
+E:\Users\Merqlove\source\repos\Addressbook\Addressbook\obj\Debug\Addressbook.pdb

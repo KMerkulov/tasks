@@ -1,0 +1,10 @@
+C:\Users\Daniil\Desktop\Конспекты\с#\WorkerManager\WorkerManager\bin\Debug\WorkerManager.exe.config
+C:\Users\Daniil\Desktop\Конспекты\с#\WorkerManager\WorkerManager\bin\Debug\WorkerManager.exe
+C:\Users\Daniil\Desktop\Конспекты\с#\WorkerManager\WorkerManager\bin\Debug\WorkerManager.pdb
+C:\Users\Daniil\Desktop\Конспекты\с#\WorkerManager\WorkerManager\obj\Debug\WorkerManager.csprojResolveAssemblyReference.cache
+C:\Users\Daniil\Desktop\Конспекты\с#\WorkerManager\WorkerManager\obj\Debug\WorkerManager.Form1.resources
+C:\Users\Daniil\Desktop\Конспекты\с#\WorkerManager\WorkerManager\obj\Debug\WorkerManager.Properties.Resources.resources
+C:\Users\Daniil\Desktop\Конспекты\с#\WorkerManager\WorkerManager\obj\Debug\WorkerManager.csproj.GenerateResource.Cache
+C:\Users\Daniil\Desktop\Конспекты\с#\WorkerManager\WorkerManager\obj\Debug\WorkerManager.csproj.CoreCompileInputs.cache
+C:\Users\Daniil\Desktop\Конспекты\с#\WorkerManager\WorkerManager\obj\Debug\WorkerManager.exe
+C:\Users\Daniil\Desktop\Конспекты\с#\WorkerManager\WorkerManager\obj\Debug\WorkerManager.pdb

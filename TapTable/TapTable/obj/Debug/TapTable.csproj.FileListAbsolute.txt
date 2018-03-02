@@ -1,0 +1,7 @@
+C:\Users\Miles\source\repos\TapTable\TapTable\bin\Debug\TapTable.exe.config
+C:\Users\Miles\source\repos\TapTable\TapTable\bin\Debug\TapTable.exe
+C:\Users\Miles\source\repos\TapTable\TapTable\bin\Debug\TapTable.pdb
+C:\Users\Miles\source\repos\TapTable\TapTable\obj\Debug\TapTable.csprojResolveAssemblyReference.cache
+C:\Users\Miles\source\repos\TapTable\TapTable\obj\Debug\TapTable.csproj.CoreCompileInputs.cache
+C:\Users\Miles\source\repos\TapTable\TapTable\obj\Debug\TapTable.exe
+C:\Users\Miles\source\repos\TapTable\TapTable\obj\Debug\TapTable.pdb

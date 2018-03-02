@@ -1,0 +1,14 @@
+hi	Privet
+goodbye	nagemist
+hello	Tere
+food	toit
+love	armastus	
+eat	sooma
+ate	soin ara
+learn	oppima
+signature	allkiri (allkirjastama)
+respect	austama
+suprise	ullatama (kedagi)
+make	tegema
+do	tegelema
+perform	esinema

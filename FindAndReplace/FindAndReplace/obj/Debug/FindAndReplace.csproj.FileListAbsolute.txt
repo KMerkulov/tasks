@@ -1,0 +1,10 @@
+C:\Users\Daniil\Desktop\Конспекты\с#\FindAndReplace\FindAndReplace\bin\Debug\FindAndReplace.exe.config
+C:\Users\Daniil\Desktop\Конспекты\с#\FindAndReplace\FindAndReplace\bin\Debug\FindAndReplace.exe
+C:\Users\Daniil\Desktop\Конспекты\с#\FindAndReplace\FindAndReplace\bin\Debug\FindAndReplace.pdb
+C:\Users\Daniil\Desktop\Конспекты\с#\FindAndReplace\FindAndReplace\obj\Debug\FindAndReplace.csprojResolveAssemblyReference.cache
+C:\Users\Daniil\Desktop\Конспекты\с#\FindAndReplace\FindAndReplace\obj\Debug\FindAndReplace.Form1.resources
+C:\Users\Daniil\Desktop\Конспекты\с#\FindAndReplace\FindAndReplace\obj\Debug\FindAndReplace.Properties.Resources.resources
+C:\Users\Daniil\Desktop\Конспекты\с#\FindAndReplace\FindAndReplace\obj\Debug\FindAndReplace.csproj.GenerateResource.Cache
+C:\Users\Daniil\Desktop\Конспекты\с#\FindAndReplace\FindAndReplace\obj\Debug\FindAndReplace.csproj.CoreCompileInputs.cache
+C:\Users\Daniil\Desktop\Конспекты\с#\FindAndReplace\FindAndReplace\obj\Debug\FindAndReplace.exe
+C:\Users\Daniil\Desktop\Конспекты\с#\FindAndReplace\FindAndReplace\obj\Debug\FindAndReplace.pdb
